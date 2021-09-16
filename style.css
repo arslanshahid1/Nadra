@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register,
+.id {
+    background-color: #a8dadc;
+    color: #1d3557;
+    padding: 5rem;
+    border: 5px solid #1d3557;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.register:hover,
+.id:hover {
+    cursor: pointer;
+    background-color: #d2eaeb;
+    text-decoration: none;
+}
+
+.row a,
+.row a:hover {
+    text-decoration: none;
+}
+
+
+/* ======================================================================================= */
+
+.id-card {
+    background-image: linear-gradient(rgb(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("./card-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    border-radius: 15px;
+    border: 2px solid #848a70;
+}
+
+.id-card h3 {
+    color: #848a70;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.id-card h5 {
+    color: #848a70;
+}
+
+.id-card h4 {
+    color: #4d4d4d;
+}
+
+.id-card p {
+    color: #848a70;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
